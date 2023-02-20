@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        var exp = FileExploler()
+        print(exp.url1)
+        print(exp.url2)
+        print(exp.url3)
     }
-
-
 }
 
